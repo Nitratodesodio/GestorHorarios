@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Ocupación Horaria</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Gestor de Ocupación Horaria</h1>
+  <p>Personas disponibles: <span id="availableCount">8</span></p>
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="noAvailabilityMessage">
+      <h2>No existen personas disponibles</h2>
+      <button onclick="closeModal()">Cerrar</button>
+    </div>
+  </div>
+  <table border="1">
+    <tr>
+      <th>Hora</th>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miércoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+      <th>Sábado</th>
+      <th>Domingo</th>
+    </tr>
+   
+    <script src="script.js"></script>
+  </table>
+</body>
+</html>
